@@ -17,7 +17,7 @@ do
 	usedKernel="$usedKernel $currentkl"
    fi
 done
-if [ -z $UnusedKernel ]; then
+if [ -z "$UnusedKernel" ]; then
   echo "No unused kernel"
 else
   echo "Unused kernel is:$UnusedKernel"
